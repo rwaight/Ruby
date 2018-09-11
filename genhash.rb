@@ -1,5 +1,14 @@
 #! C:\Ruby193 ruby
 
+# -----------------------------------------------------------------------------
+# Script: genhash.rb
+# Author: Robert Waight
+# Date: 12/30/2014
+# Keywords: 
+# comments: Testing the generation of hashes with Ruby
+#
+# -----------------------------------------------------------------------------
+
 def generate_hash
   require 'io/console'
   $go_date = Time.now.strftime("%Y%m%d")
